@@ -1,0 +1,8 @@
+language: scala
+scala:
+  - 2.11.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: Y5Kw6IqpZVbDyuWt7WAHv5J6KeV5N06hccNCr4PtZxx3p0YDqGRNV7OXuhTXbCBH+6t35UT/tduC8NjYOECF6UHKg1+iEOYHSg/fEg7hfGYBXs/yaBkuzDjUiX6f19gZHK9fJ+WRakEnEOcSEpvoVQK0QeJG/7ET65bGPDrGPE0=
+  app: floating-fjord-8499
